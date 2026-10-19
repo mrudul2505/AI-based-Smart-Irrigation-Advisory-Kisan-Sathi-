@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farm Plot Navigation - KisanSaathi</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>KisanSaathi</h1>
+        <p>Smart Irrigation using AI &amp; Sensor Technology</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="farm-info.html">Farm Info</a>
+        <a href="advisory.html">Advisory</a>
+        <a href="irrigation-table.html">Dashboard</a>
+        <a href="media.html">Media</a>
+        <a href="plot-map.html">Plot Map</a>
+        <a href="weather.html">Weather</a>
+        <a href="registration.html">Register</a>
+    </nav>
+
+    <section>
+        <h2>Farm Plot Navigation</h2>
+        <p>Click on a plot below to view its details.</p>
+
+        <img class="farm-map" src="images/farm_map.png" alt="Farm map with three labelled plots"
+            title="Click a plot to view its details" width="1024" height="1024" usemap="#farm-plots">
+        <map name="farm-plots">
+            <area shape="rect" coords="125,276,361,738" href="plot-a.html" alt="Plot A - 2.5 acres"
+                title="Open Plot A details">
+            <area shape="rect" coords="393,276,629,738" href="plot-b.html" alt="Plot B - 3.0 acres"
+                title="Open Plot B details">
+            <area shape="rect" coords="661,276,897,738" href="plot-c.html" alt="Plot C - 1.8 acres"
+                title="Open Plot C details">
+        </map>
+    </section>
+
+    <footer>
+        <p>WDL Experiment 1 | SY COMPS Sem 3 | A1 Batch</p>
+    </footer>
+
+</body>
+
+</html>
