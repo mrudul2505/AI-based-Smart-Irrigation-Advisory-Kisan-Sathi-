@@ -12,6 +12,20 @@ An AI-driven irrigation advisory system that integrates field sensors, weather f
 * K J Somaiya Applied Agricultural Research (KIAAR), Sameerwadi, Karnataka 
 * Godavari Biorefineries Ltd. (GBL)
 
+### Farmer registration validation
+
+`registration.html` loads the bundled jQuery 4.0.0 library from
+`js/vendor/jquery-4.0.0.min.js`, followed by `js/registration-validation.js`.
+The library's MIT license is included in `js/vendor/jquery-LICENSE.txt`.
+These files deploy with the static website and require no build step or external CDN.
+
+The form checks required fields, names, Indian mobile numbers, email addresses,
+Plot IDs such as `PLOT-A`, selections, soil moisture from 0 to 100, and registration
+dates up to the user's local current date. It displays all errors on submit,
+updates errors while editing, and clears validation state when reset.
+Valid input displays a ready-to-submit message; registration storage and server
+submission are not implemented.
+
 **Beneficiaries:**
 * 🚜 **18,000–25,000 Sugarcane Farmers** associated with GBL and KIAAR
 * 👨‍🌾 **Cane Department Supervisors** & Field Assistants
