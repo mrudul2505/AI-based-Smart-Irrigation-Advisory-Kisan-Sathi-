@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 30px;
+}
+
+h1 {
+  color: green;
+}
+
+.card {
+  border: 1px solid gray;
+  padding: 20px;
+  width: 300px;
+  margin: 20px auto;
+}
+
+button {
+  padding: 8px 15px;
+  font-size: 16px;
+}
